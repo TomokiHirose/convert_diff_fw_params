@@ -26,6 +26,9 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+.vscode
+.config
+.local
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -50,6 +53,8 @@ coverage.xml
 *.py,cover
 .hypothesis/
 .pytest_cache/
+assets
+report.html
 
 # Translations
 *.mo
@@ -69,7 +74,7 @@ instance/
 .scrapy
 
 # Sphinx documentation
-docs/_build/
+_build/
 
 # PyBuilder
 target/
@@ -127,3 +132,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.bash_history
