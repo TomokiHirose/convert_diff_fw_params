@@ -39,4 +39,4 @@ def metrics():
 
 def test():
     logger.info("Running pytest...")
-    call(["pytest", "--html=report.html", "--cov={}".format(PACKAGE_NAME), "--cov-branch"])
+    call(["pytest", "-s", "--html=report.html", "--cov={}".format(PACKAGE_NAME), "--cov-branch"])
